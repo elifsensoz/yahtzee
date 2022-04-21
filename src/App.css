@@ -1,9 +1,20 @@
+@media (min-height: 800px) {
+  div.App {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1.App-title{
+    font-size: 2rem;
+  }
+}
+
 .App {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .App-title {

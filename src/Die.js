@@ -31,7 +31,7 @@ class Die extends Component {
       <FontAwesomeIcon
           icon={numberWords.get(this.props.val)}
           className={classes}
-          size={"5x"}
+          size={"2x"}
           disabled={disabled}
           onClick={this.handleClick}
       />
