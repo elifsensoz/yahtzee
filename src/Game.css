@@ -1,11 +1,16 @@
 @media only screen and (max-width: 600px) {
   div.Game {
     width: 100%;
-    background: rgb(113, 103, 85);
+    margin: 0 0;
     display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  }
+  button.Game-reroll {
+    font-size: 1em;
+    font-weight: 100;
+    margin-bottom: 1rem;
   }
 }
 
